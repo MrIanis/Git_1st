@@ -43,3 +43,35 @@ Pour voir les différences entre les commits, il faut utiliser la commande suiva
 ### Ignorer un fichier
 
 Pour ignorer un fichier, il faut créer un fichier `.gitignore` à la racine du projet et y ajouter les fichiers à ignorer.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### les branches
+
+Une branche est un pointeur vers un commit. C'est un moyen de travailler sur un projet sans modifier la branche principale. Une fois le travail terminé, on peut fusionner la branche avec la branche principale.
+
+#### Créer une branche
+
+Pour créer une branche, il faut utiliser la commande suivante :
+
+    git branch <nom de la branche>
+
+#### Se déplacer sur une branche
+
+Pour se déplacer sur une branche, il faut utiliser la commande suivante :
+
+    git checkout <nom de la branche>
+
+#### Fusionner une branche
+
+Pour fusionner une branche, il faut se déplacer sur la branche principale et utiliser la commande suivante :
+
+    git merge <nom de la branche>
+
+#### Supprimer une branche
+
+Pour supprimer une branche, il faut utiliser la commande suivante :
+
+    git branch -d <nom de la branche>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
